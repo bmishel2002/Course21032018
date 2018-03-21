@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MyNewWebApi/.vs/MyNewWebAPi/v15/Server/sqlite3
