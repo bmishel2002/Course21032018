@@ -1,0 +1,11 @@
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\bin\Debug\netcoreapp2.0\MyNewWebApi.deps.json
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\bin\Debug\netcoreapp2.0\MyNewWebApi.runtimeconfig.json
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\bin\Debug\netcoreapp2.0\MyNewWebApi.runtimeconfig.dev.json
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\bin\Debug\netcoreapp2.0\MyNewWebApi.dll
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\bin\Debug\netcoreapp2.0\MyNewWebApi.pdb
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\obj\Debug\netcoreapp2.0\MyNewWebApi.csprojResolveAssemblyReference.cache
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\obj\Debug\netcoreapp2.0\MyNewWebApi.csproj.CoreCompileInputs.cache
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\obj\Debug\netcoreapp2.0\MyNewWebApi.AssemblyInfoInputs.cache
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\obj\Debug\netcoreapp2.0\MyNewWebApi.AssemblyInfo.cs
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\obj\Debug\netcoreapp2.0\MyNewWebApi.dll
+C:\Projects\gitRepos\dotCore\Course21032018\MyNewWebApi\obj\Debug\netcoreapp2.0\MyNewWebApi.pdb

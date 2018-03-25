@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using MyNewWebAPi.Model;
 
 namespace MyNewWebAPi.Controllers
@@ -16,10 +17,12 @@ namespace MyNewWebAPi.Controllers
     public class UsersController : Controller
     {
         private readonly UsersContext _context;
+        private readonly ILogger _logger;
 
-        public UsersController(UsersContext context)
+        public UsersController(UsersContext context, ILogger<UsersController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: api/Users
@@ -27,6 +30,8 @@ namespace MyNewWebAPi.Controllers
         [FormatFilter]
         public IEnumerable<User> GetUsers()
         {
+            _logger.LogDebug("Getting item ");
+            _logger.LogError("Ooops");
             return _context.Users;
         }
 

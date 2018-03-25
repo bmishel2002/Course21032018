@@ -1,0 +1,9 @@
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\bin\Debug\netstandard2.0\PrimeService.deps.json
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\bin\Debug\netstandard2.0\PrimeService.dll
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\bin\Debug\netstandard2.0\PrimeService.pdb
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.csproj.CoreCompileInputs.cache
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.AssemblyInfoInputs.cache
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.AssemblyInfo.cs
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.dll
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.pdb
+C:\Projects\gitRepos\dotCore\Course21032018\unit-test-using-dotnet-test\PrimeService\obj\Debug\netstandard2.0\PrimeService.csprojResolveAssemblyReference.cache

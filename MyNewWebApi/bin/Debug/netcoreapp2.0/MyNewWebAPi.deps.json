@@ -21,7 +21,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "MyNewWebAPi/1.0.0": {
+      "MyNewWebApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.5",
           "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.0.2",
@@ -31,10 +31,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.2"
         },
         "runtime": {
-          "MyNewWebAPi.dll": {}
+          "MyNewWebApi.dll": {}
         },
         "compile": {
-          "MyNewWebAPi.dll": {}
+          "MyNewWebApi.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4235,7 +4235,7 @@
     }
   },
   "libraries": {
-    "MyNewWebAPi/1.0.0": {
+    "MyNewWebApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -5468,7 +5468,7 @@
     "Remotion.Linq/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zVqrUKTZoT3T46Il38GmHj201yxHOclymVRNRTl5n9mF+2ocTgLibreT3bmP28B0eKN8yRcI5+lQIE5SmF50uw==",
+      "sha512": "sha512-IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "path": "remotion.linq/2.1.1",
       "hashPath": "remotion.linq.2.1.1.nupkg.sha512"
     },
@@ -5972,7 +5972,7 @@
     "System.Net.Security/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jTEArUXGlzUhg5MOeBp7L3ZiFmlVrcN3L8WxWPDml9puhKCijdeL1qOI+SER3vudtMSvqjwO0MOamTebfktGUA==",
+      "sha512": "sha512-IgJKNfALqw7JRWp5LMQ5SWHNKvXVz094U6wNE3c1i8bOkMQvgBL+MMQuNt3xl9Qg9iWpj3lFxPZEY6XHmROjMQ==",
       "path": "system.net.security/4.3.0",
       "hashPath": "system.net.security.4.3.0.nupkg.sha512"
     },
