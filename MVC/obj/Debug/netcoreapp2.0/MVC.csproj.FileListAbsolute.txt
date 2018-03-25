@@ -1,0 +1,11 @@
+C:\Projects\gitRepos\MVC\bin\Debug\netcoreapp2.0\MVC.deps.json
+C:\Projects\gitRepos\MVC\bin\Debug\netcoreapp2.0\MVC.runtimeconfig.json
+C:\Projects\gitRepos\MVC\bin\Debug\netcoreapp2.0\MVC.runtimeconfig.dev.json
+C:\Projects\gitRepos\MVC\bin\Debug\netcoreapp2.0\MVC.dll
+C:\Projects\gitRepos\MVC\bin\Debug\netcoreapp2.0\MVC.pdb
+C:\Projects\gitRepos\MVC\obj\Debug\netcoreapp2.0\MVC.csprojResolveAssemblyReference.cache
+C:\Projects\gitRepos\MVC\obj\Debug\netcoreapp2.0\MVC.csproj.CoreCompileInputs.cache
+C:\Projects\gitRepos\MVC\obj\Debug\netcoreapp2.0\MVC.AssemblyInfoInputs.cache
+C:\Projects\gitRepos\MVC\obj\Debug\netcoreapp2.0\MVC.AssemblyInfo.cs
+C:\Projects\gitRepos\MVC\obj\Debug\netcoreapp2.0\MVC.dll
+C:\Projects\gitRepos\MVC\obj\Debug\netcoreapp2.0\MVC.pdb
