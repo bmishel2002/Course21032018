@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>Список пользователей</title>
     <link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/jquery-3.3.1.min.js"></script>
 </head>
 <body>
     <h2>Список пользователей</h2>
@@ -29,6 +29,7 @@
         <tbody></tbody>
     </table>
 
+
     <script>
         // Получение всех пользователей
         function GetUsers() {
@@ -43,9 +44,10 @@
                         rows += row(user);
                     })
                     $("table tbody").append(rows);
-                 }
+                }
             });
         }
+
         // Получение одного пользователя
         function GetUser(id) {
             $.ajax({
@@ -59,16 +61,14 @@
                     form.elements["age"].value = user.age;
                 }
             });
-        }
-      
+        }     
+        
         // сброс формы
         function reset() {
             var form = document.forms["userForm"];
             form.reset();
             form.elements["id"].value = 0;
         }
-
-
 
         // Добавление пользователя
         function CreateUser(userName, userAge) {
@@ -87,6 +87,35 @@
             })
         }
 
+        // Редактирование пользователя
+        function EditUser(id, userName, userAge) {
+            $.ajax({
+                url: "api/users/" + id,
+                contentType: "application/json",
+                method: "PATCH",
+                data: JSON.stringify({
+                    name: userName,
+                    age: userAge
+                }),
+                success: function (user) {
+                    window.location.reload();   // В идеале конечно же отдельный блок со списком пользователей, перегружаемый без перезагрузки всей страницы
+                }
+            })
+        }
+
+        // Удаление пользователя
+        function DeleteUser(id) {
+            $.ajax({
+                url: "api/users/" + id,
+                contentType: "application/json",
+                method: "DELETE",
+                success: function (user) {
+                    window.location.reload();
+                }
+            })
+        }
+
+        
         // создание строки для таблицы
         var row = function (user) {
             return "<tr data-rowid='" + user.id + "'><td>" + user.id + "</td>" +
@@ -94,12 +123,12 @@
                    "<td><a class='editLink' data-id='" + user.id + "'>Изменить</a> | " +
                     "<a class='removeLink' data-id='" + user.id + "'>Удалить</a></td></tr>";
         }
+        
         // сброс значений формы
         $("#reset").click(function (e) {
-
             e.preventDefault();
             reset();
-        })
+        });
 
         // отправка формы
         $("form").submit(function (e) {
@@ -109,8 +138,8 @@
             var age = this.elements["age"].value;
             if (id == 0)
                 CreateUser(name, age);
-            //else
-            //    EditUser(id, name, age);
+            else
+                EditUser(id, name, age);
         });
 
         // нажимаем на ссылку Изменить
@@ -118,13 +147,14 @@
             var id = $(this).data("id");
             GetUser(id);
         })
+
         // нажимаем на ссылку Удалить
         $("body").on("click", ".removeLink", function () {
             var id = $(this).data("id");
-            //DeleteUser(id);
+            DeleteUser(id);
         })
 
-        // загрузка пользователей
+       // загрузка пользователей
         GetUsers();
 
     </script>
